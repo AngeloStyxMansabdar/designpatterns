@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\angel\\source\\repos\\002 - ObserverPattern\\ObserverPattern\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\angel\\source\\repos\\002 - ObserverPattern\\ObserverPattern\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\angel\\source\\repos\\002 - ObserverPattern\\ObserverPattern\\ObserverPattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ObserverPattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\angel\\source\\repos\\002 - ObserverPattern\\ObserverPattern\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\002 - ObserverPattern\\ObserverPattern\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -43,12 +43,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ObserverPattern.csproj",
               "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\002 - ObserverPattern\\ObserverPattern\\ObserverPattern.csproj",
               "RelativeDocumentMoniker": "ObserverPattern.csproj",
-              "ToolTip": "C:\\Users\\angel\\source\\repos\\002 - ObserverPattern\\ObserverPattern\\ObserverPattern.csproj",
-              "RelativeToolTip": "ObserverPattern.csproj",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\002 - ObserverPattern\\ObserverPattern\\ObserverPattern.csproj*",
+              "RelativeToolTip": "ObserverPattern.csproj*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-09-11T11:34:59.05Z",
