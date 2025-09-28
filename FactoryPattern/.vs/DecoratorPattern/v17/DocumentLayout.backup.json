@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\angel\\source\\repos\\designpatterns\\DecoratorPattern\\",
+  "WorkspaceRootPath": "C:\\Users\\angel\\source\\repos\\designpatterns\\FactoryPattern\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\angel\\source\\repos\\designpatterns\\decoratorpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\angel\\source\\repos\\designpatterns\\factorypattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|c:\\users\\angel\\source\\repos\\designpatterns\\factorypattern\\coffeefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26321C9-EB12-A162-5EBC-5020CCCA9CE6}|DecoratorPattern.csproj|solutionrelative:coffeefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\designpatterns\\DecoratorPattern\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\designpatterns\\FactoryPattern\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\angel\\source\\repos\\designpatterns\\DecoratorPattern\\Program.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\designpatterns\\FactoryPattern\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T17:29:44.86Z",
               "IsPinned": true,
@@ -37,6 +41,23 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoffeeFactory.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\designpatterns\\FactoryPattern\\CoffeeFactory.cs",
+              "RelativeDocumentMoniker": "CoffeeFactory.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\designpatterns\\FactoryPattern\\CoffeeFactory.cs*",
+              "RelativeToolTip": "CoffeeFactory.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T15:05:35.152Z",
+              "EditorCaption": ""
             }
           ]
         },
