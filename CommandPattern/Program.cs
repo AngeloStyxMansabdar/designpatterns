@@ -60,51 +60,30 @@ namespace CommandPattern
 
             Console.WriteLine(remoteControl);
 
-            // Test the pressing of Buttons here. Don't forget to test the Undo 
-            remoteControl.OnButtonWasPushed(0);
-            remoteControl.OffButtonWasPushed(0);
+            Console.WriteLine("// Executing actions \\");
+            Console.WriteLine("1) Turn on Kitchen (slot 1)");
+            remoteControl.OnButtonWasPushed(1); // kitchen on
+
+            Console.WriteLine("2) Turn on Living Room (slot 0)");
+            remoteControl.OnButtonWasPushed(0); // living room on
+
+            Console.WriteLine("3) Turn off Kitchen (slot 1)");
+            remoteControl.OffButtonWasPushed(1); // kitchen off
+
+            Console.WriteLine("4) Open Garage (slot 2)");
+            remoteControl.OnButtonWasPushed(2); // garage up
+
+            Console.WriteLine("\n // Undoing actions \\");
+            for (int i = 0; i < 4; i++)
+            {
+                Console.WriteLine($"\nUndo #{i + 1}:");
+                remoteControl.UndoButtonWasPushed();
+            }
+
             remoteControl.UndoButtonWasPushed();
-            Console.WriteLine("");
-            //Console.WriteLine(remoteControl);
 
-            remoteControl.OnButtonWasPushed(1);
-            remoteControl.OffButtonWasPushed(1);
-            remoteControl.UndoButtonWasPushed();
-            Console.WriteLine("");
-            //Console.WriteLine(remoteControl);
-
-            remoteControl.OnButtonWasPushed(2);
-            remoteControl.OffButtonWasPushed(2);
-            remoteControl.UndoButtonWasPushed();
-            Console.WriteLine("");
-            //Console.WriteLine(remoteControl);
-
-            remoteControl.OnButtonWasPushed(3);
-            remoteControl.OffButtonWasPushed(3);
-            remoteControl.UndoButtonWasPushed();
-            Console.WriteLine("");
-            //Console.WriteLine(remoteControl);
-
-            remoteControl.OnButtonWasPushed(4);
-            remoteControl.OffButtonWasPushed(4);
-            remoteControl.UndoButtonWasPushed();
-            Console.WriteLine("");
-            //Console.WriteLine(remoteControl);
-
-            remoteControl.OnButtonWasPushed(5);
-            remoteControl.OffButtonWasPushed(5);
-            remoteControl.UndoButtonWasPushed();
-            Console.WriteLine("");
-            //Console.WriteLine(remoteControl);
-
-            remoteControl.OnButtonWasPushed(6);
-            remoteControl.OffButtonWasPushed(6);
-            remoteControl.UndoButtonWasPushed();
-            Console.WriteLine("");
-            //Console.WriteLine(remoteControl);
-
-
-
+            Console.WriteLine("\nPress Enter to exit.");
+            Console.ReadLine();
         }
     }
 }

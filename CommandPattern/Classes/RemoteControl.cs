@@ -12,16 +12,16 @@ namespace CommandPattern.Classes
     {
         Command[] onCommands = new Command[7];
         Command[] offCommands = new Command[7];
-        Command undoCommand;
+        private Stack<Command> undoHistory;
+
         public RemoteControl()
         {
-            Command noCommand = new NoCommand();
             for (int i = 0; i < onCommands.Length; i++)
             {
                 onCommands[i] = new NoCommand();
                 offCommands[i] = new NoCommand();
             }
-            undoCommand = noCommand;
+            undoHistory = new Stack<Command>();
         }
 
         // This method must set the On and Off command to the slot provided
@@ -40,7 +40,7 @@ namespace CommandPattern.Classes
                 return;
             }
             onCommands[slot].Execute();
-            undoCommand = onCommands[slot];
+            undoHistory.Push(onCommands[slot]);
         }
 
         // This method must call the OffCommand.Execute() method of the slot provided
@@ -52,13 +52,20 @@ namespace CommandPattern.Classes
                 return;
             }
             offCommands[slot].Execute();
-            undoCommand = offCommands[slot];
+            undoHistory.Push(offCommands[slot]);
         }
 
-        //Method voor de undo button
+        // Method for the undo button - supports multi-step undo via history
         public void UndoButtonWasPushed()
         {
-            undoCommand.Undo();
+            if (undoHistory == null || undoHistory.Count == 0)
+            {
+                Console.WriteLine("Nothing to undo.");
+                return;
+            }
+
+            Command last = undoHistory.Pop();
+            last.Undo();
         }
 
         // Overwritten ToString() to print out each slot and its corresponding command.
