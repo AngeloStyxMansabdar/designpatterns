@@ -9,7 +9,7 @@ namespace DecoratorPattern
         static void Main(string[] args)
         {
 
-            CoffeeFactory factory = new CoffeeFactory();
+            StarbuzzFactory factory = new CoffeeFactory();
 
             Beverage espresso = factory.CreateCoffee("espresso", Size.TALL);
             PrintBeverage(espresso);

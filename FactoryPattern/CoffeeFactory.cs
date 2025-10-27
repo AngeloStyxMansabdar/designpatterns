@@ -1,20 +1,16 @@
 ﻿using DecoratorPattern.Beverages;
 using DecoratorPattern.Condiments;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DecoratorPattern
 {
-    internal class CoffeeFactory
+    internal class CoffeeFactory : StarbuzzFactory
     {
-        public Beverage CreateCoffee(string type, Size size = Size.TALL)
+        protected override Beverage Create(string type)
         {
             Beverage beverage;
 
-            switch (type.ToLower())
+            switch (type)
             {
                 case "espresso":
                     beverage = new Espresso();
@@ -195,10 +191,10 @@ namespace DecoratorPattern
                     break;
 
                 default:
-                    throw new ArgumentException("Unknown coffee type: " + type);
+                    // return null so the base class can throw a clear exception
+                    return null;
             }
 
-            beverage.Size = size;
             return beverage;
         }
     }
